@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="../map/map.css">
+    <link rel="stylesheet" href="../results/results.cs">
     <title>Document</title>
 </head>
 <span class='profile-title'>
@@ -32,7 +32,8 @@
 
 <body>
 
-    <script type="module" src="../map/map.js"></script>
+    <script type="module" src="../results/results.js
+    "></script>
 </body>
 
 </html>

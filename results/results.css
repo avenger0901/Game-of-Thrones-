@@ -1,0 +1,21 @@
+.profile-title{
+    color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border:20px solid yellowgreen;
+    padding: 10px;
+    align-items: center;
+}
+*{
+    background-color:
+    #161a1e;
+}
+
+img{
+    height: 45px;
+    width: 45px;
+}
+h3{
+    color: whitesmoke;
+}
