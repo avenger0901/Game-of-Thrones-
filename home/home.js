@@ -8,4 +8,6 @@ userSignUp.addEventListener('submit', function(event){
     const formData = new FormData(userSignUp);
     const user = makerUser(formData);
     saveUser(user);
+    console.log(user);
+    console.log('hahahhahah');
 });
