@@ -6,7 +6,8 @@ export function createChoice(choice) {
     radio.type = 'radio';
     radio.name = 'choice';
     radio.required = 'true';
-    radio.id = choice.id;
+    radio.value = choice.id;
+    
     const description = document.createElement('span');
     description.textContent = choice.description;
     label.appendChild(description);
