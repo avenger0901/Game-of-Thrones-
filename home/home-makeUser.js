@@ -4,7 +4,7 @@ function makeUser(formData){
         race: formData.get('race'),
         hp:35,
         gold: 0,
-        complted: {}
+        completed: {}
     };
     return user;
 }

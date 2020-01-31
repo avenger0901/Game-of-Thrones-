@@ -3,6 +3,7 @@ import { findById } from './findById.js';
 import { createChoice } from './createChoice.js';
 import loadProfile from '../utils/loadProfile.js';
 import { getUser, saveUser } from '../data/api.js';
+import { updateUserScore } from './updateUserScore.js';
 loadProfile();
 // getUser();
 const searchParam = new URLSearchParams(window.location.search);
@@ -35,6 +36,11 @@ form.addEventListener('submit', function(event){
     console.log(returnObject);
     resultDescription.textContent = returnObject.result;
     const user = getUser();
+    //unable the submit button, game can only play once
+    //update the user points
+    updateUserScore(returnObject, quest.id, user);
     saveUser(user);
     loadProfile();
 });
+
+
