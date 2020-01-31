@@ -5,7 +5,7 @@ const theWall = {
         top: '89%',
         left: '44%'
     },
-    image: 'white-walkers.png',
+    image: 'white-walker.gif',
     audio: 'monsters.wav',
     action: 'monster-scream.wav',
     description: `
@@ -47,7 +47,7 @@ const westeros = {
         top: '57%',
         left: '20%'
     },
-    image: 'iron-throne.jpg',
+    image: 'the-throne.gif',
     audio: 'dragon.wav',
     action: 'dragon-growl.aiff',
     description: `
@@ -99,7 +99,7 @@ const essos = {
         top: '31%',
         left: '5%'
     },
-    image: 'dragon-baby.jpg',
+    image: 'baby-dragon.gif',
     audio: 'treasure-chests.wav',
     action: 'chest-opening.wav',
     description: `

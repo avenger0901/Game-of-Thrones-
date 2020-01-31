@@ -10,6 +10,7 @@ function renderLink(quest){
     nav.appendChild(link);
     link.textContent = quest.title;
     link.href = '../quest/?id=' + quest.id;
+    console.log(quest.id);
 
     return link;
 

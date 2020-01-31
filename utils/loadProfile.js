@@ -6,12 +6,9 @@ function loadProfile() {
     const gold = document.getElementById('gold');
     
     const user = getUser();
-    console.log(user);
     name.textContent = user.name;
     hp.textContent = user.hp;
     gold.textContent = user.gold;
     avatar.src = '../assets/game-pic/' + user.race + '.png';
-    console.log(name);
-    console.log(name.textContent);
 }
 export default loadProfile;
