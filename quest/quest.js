@@ -1,9 +1,9 @@
 import quests from '../data/questData.js';
 import { findById } from './findById.js';
 import { createChoice } from './createChoice.js';
-// import loadProfile from '../utils/loadProfile.js';
-// import { getUser } from '../data/api.js';
-// loadProfile();
+import loadProfile from '../utils/loadProfile.js';
+import { getUser, saveUser } from '../data/api.js';
+loadProfile();
 // getUser();
 const searchParam = new URLSearchParams(window.location.search);
 const questId = searchParam.get('id');
@@ -34,5 +34,7 @@ form.addEventListener('submit', function(event){
     const returnObject = findById(getFormId, quest.choices);
     console.log(returnObject);
     resultDescription.textContent = returnObject.result;
-
+    const user = getUser();
+    saveUser(user);
+    loadProfile();
 });
