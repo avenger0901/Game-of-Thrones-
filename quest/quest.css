@@ -1,0 +1,44 @@
+*{
+    background-color:
+    #161a1e;
+}
+
+#avatar{
+    height: 45px;
+    width: 45px;
+}
+h1{
+    color: whitesmoke;
+}
+#questions{
+    color: skyblue;
+    font-size: 25px;
+    font-weight: bold;
+}
+#the-choices{
+    color: greenyellow;
+    font-size: 20px;
+}
+#result-description{
+    color: khaki;
+}
+#nav{
+    background-image: url("../assets/game-pic/map.png");
+    height: 550px;
+    width: 850px;
+}
+.profile{
+    color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    border:20px solid yellowgreen;
+    padding: 10px;
+    align-items: center;
+}
+button{
+    color: whitesmoke;
+    height: 50px;
+    width: 100px;
+    border-radius: 12px;
+    background-color: green;
+}
