@@ -1,39 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
+export const aliveGoldMessages = {
+    poor: 'You are poor now, but it is ok, you know how to programming now, go to make some money!',
+    modest: 'you live in a modest hut farming the earth',
+    rich: 'You are reach and healthy, you can take the queen to Maldives',
+};
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="../results/results.cs">
-    <title>Document</title>
-</head>
-<span class='profile-title'>
-<h1>Game of Thrones Adventure</h1>
-<div class="profile">
-    <img id="avatar" src="">
-    <span id="name"></span>
-    <span class="profile-stat-label">hp:</span>
-    <span id="hp"></span>
-    <span class="profile-stat-label">gold:</span>
-    <span id="gold"></span>
-</div>
-</span>
+export const deadGoldMessages = {
+    poor: 'you leave nothing to loose anymore',
+    modest: 'you leave enough to buy Ceisi a dragon',
+    rich: 'You are the richest man in the world, but you have to leave all your money to the Queen now'
+};
 
-<main class="nav-pic"> 
-    <h3>
-    Choose Your Adventure
-    </h3>
-    <nav id="nav">
-
-    </nav>
-    
-</main>
-
-<body>
-
-    <script type="module" src="../results/results.js
-    "></script>
-</body>
-
-</html>
+export const hpMessages = {
+    dead: 'you are dead',
+    frail: 'you retire in frail health',
+    healthy: 'you retire and live a long life in good health',
+};
